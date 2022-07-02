@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
 
     font-size: 16px;
-    font-family: ;
+    font-family: Poppins;
 
     color: white;
 
@@ -34,11 +34,41 @@ header{
 }
 
 header .h-port-name{
-    font-size: 5em;
+    font-size: 6em;
+    background: linear-gradient(to left, #00f776, #168756);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header .h-port-dev, .h-port-desc{
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+header i{
+    margin-left: 10px;
+    font-size: 3em;
+    transition: 0.5s ease-in-out;
+}
+
+
+header i:hover{
+    color: rgb(255, 255, 255);
+}
+
+header .fa-css3-alt{
+    color: rgb(0, 87, 194);
+}
+
+header .fa-html5{
+    color: rgb(234, 207, 1);
+}
+
+header .fa-node-js{
+    color: #00870e;
+}
+
+header .fa-c{
+    color: #007efb;
 }
 
 header .btn-port{
@@ -47,11 +77,16 @@ header .btn-port{
 
     background-color: 	#A9A9A9;
 
+    animation: mouseScroll 2s linear infinite;
+
     border: none;
     border-radius: 30px;
 
+    position: relative;
     cursor: row-resize;
 }
+
+
 
 main{
     width: 100%;
@@ -76,7 +111,6 @@ main .section-description{
 
 main .m-port-div-desc{
     width: 50%;
-
     text-align: center;
 }
 
@@ -87,12 +121,18 @@ main .m-port-div-desc .m-port-desc{
 
 main .m-port-div-desc .p-desc{
     margin-bottom: 20px;
-    font-size: 1.2em;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.1em;
 
 }
 
 main .m-port-div-desc .div-skills{
     font-size: 1.2em;
+}
+
+main table{
+    border: 2px solid white;
 }
 
 main .m-port-div-video{
@@ -118,4 +158,17 @@ main .btn-main{
     border-radius: 30px;
 
     cursor: row-resize;
+}
+
+/* KEYFRAMES */
+
+@keyframes mouseScroll{
+    
+    0%{ box-shadow: 1px 1px 1px 1px #8888884d;}
+    50%{ 
+        box-shadow: 1px 1px 3px 15px #8888884d;
+        top: 13px;
+        border-radius: 0px 0px 30px 30px;}
+    100%{ box-shadow: 1px 1px 1px 1px #8888884d;}
+  
 }
