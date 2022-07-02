@@ -71,26 +71,12 @@ header .fa-c{
     color: #007efb;
 }
 
-header .btn-port{
-    width: 30px;
-    height: 30px;
-
-    background-color: 	#A9A9A9;
-
-    animation: mouseScroll 2s linear infinite;
-
-    border: none;
-    border-radius: 30px;
-
-    position: relative;
-    cursor: row-resize;
-}
 
 
 
 main{
     width: 100%;
-    height: 200vh;
+    height: 202vh;
 
     background-image: url(/img/v1016-b-08.jpg);
 
@@ -115,12 +101,12 @@ main .m-port-div-desc{
 }
 
 main .m-port-div-desc .m-port-desc{
+    margin-top: 5px;
     margin-bottom: 10px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 main .m-port-div-desc .p-desc{
-    margin-bottom: 20px;
     padding: 10px;
     text-align: left;
     font-size: 1.1em;
@@ -131,8 +117,15 @@ main .m-port-div-desc .div-skills{
     font-size: 1.2em;
 }
 
+main .div-skills{
+    margin: 10px auto;
+    width: 90%;
+}
+
 main table{
-    border: 2px solid white;
+
+    color: white;
+    border: 1px solid white;
 }
 
 main .m-port-div-video{
@@ -146,6 +139,7 @@ main .section-codigos{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 main .btn-main{
@@ -162,13 +156,3 @@ main .btn-main{
 
 /* KEYFRAMES */
 
-@keyframes mouseScroll{
-    
-    0%{ box-shadow: 1px 1px 1px 1px #8888884d;}
-    50%{ 
-        box-shadow: 1px 1px 3px 15px #8888884d;
-        top: 13px;
-        border-radius: 0px 0px 30px 30px;}
-    100%{ box-shadow: 1px 1px 1px 1px #8888884d;}
-  
-}
