@@ -1,0 +1,121 @@
+:root{
+    --h1-h:#D3D3D3;
+    --h2-h:#DCDCDC;
+    -title-h1:#ADD8E6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/background-header-prot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-size: 16px;
+    font-family: ;
+
+    color: white;
+
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .h-port-name{
+    font-size: 5em;
+}
+
+header .h-port-dev, .h-port-desc{
+    font-size: 2em;
+}
+
+header .btn-port{
+    width: 30px;
+    height: 30px;
+
+    background-color: 	#A9A9A9;
+
+    border: none;
+    border-radius: 30px;
+
+    cursor: row-resize;
+}
+
+main{
+    width: 100%;
+    height: 200vh;
+
+    background-image: url(/img/v1016-b-08.jpg);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .section-description{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+main .m-port-div-desc{
+    width: 50%;
+
+    text-align: center;
+}
+
+main .m-port-div-desc .m-port-desc{
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+main .m-port-div-desc .p-desc{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+
+}
+
+main .m-port-div-desc .div-skills{
+    font-size: 1.2em;
+}
+
+main .m-port-div-video{
+    width: 50%;
+    background-color: bisque;
+}
+
+main .section-codigos{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .btn-main{
+    width: 30px;
+    height: 30px;
+
+    background-color: 	#A9A9A9;
+
+    border: none;
+    border-radius: 30px;
+
+    cursor: row-resize;
+}
