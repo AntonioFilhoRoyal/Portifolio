@@ -11,9 +11,8 @@
 }
 
 body{
-    background-image: url(/img/background-header-prot.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+
+    background: url(/img/v1016-b-08.jpg);
 
     font-size: 16px;
     font-family: Poppins;
@@ -26,6 +25,8 @@ body{
 header{
     width: 100%;
     height: 100vh;
+
+    background-image: url(/img/background-header-prot.jpg);
 
     display: flex;
     flex-direction: column;
@@ -77,9 +78,7 @@ header .fa-c{
 
 main{
     width: 100%;
-    height: 202vh;
-
-    background-image: url(/img/v1016-b-08.jpg);
+    height: 200vh;
 
     display: flex;
     flex-direction: column;
@@ -131,16 +130,28 @@ main table{
 
 main .m-port-div-video{
     width: 50%;
-    background-color: bisque;
+}
+
+main video{
+    margin-top: 100px;
 }
 
 main .section-codigos{
+    width: 100%;
     height: 100vh;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+main .m-div-cod{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 main .btn-main{
@@ -153,6 +164,48 @@ main .btn-main{
     border-radius: 30px;
 
 }
+
+footer{
+    width: 100%;
+    height: 40vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer div{
+    width: 35%;
+}
+
+footer div .div-icons{
+    width: 100%;
+}
+
+
+footer .f-port-social i{
+    margin-left: 4%;
+    font-size: 2.5em;
+
+    transition: 0.3s ease-in-out;
+}
+
+.f-port-social .fa-whatsapp{
+    color: #00870e;
+}
+
+.f-port-social .fa-linkedin-in{
+    color: #007efb;
+}
+
+.f-port-social .fa-github{
+    color: #DCDCDC;
+}
+
+.f-port-social i:hover{
+  transform: translateY(10px);
+}
+
 
 /* KEYFRAMES */
 
