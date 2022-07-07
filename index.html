@@ -1,58 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang=pt-BR>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <link rel=preconnect href=https://fonts.googleapis.com>
+    <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kanit&family=Kdam+Thmor+Pro&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Noto+Sans:wght@700&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@200;400;500;700;900&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500;1,900&display=swap"
-        rel="stylesheet">
+        rel=stylesheet>
+    <link rel=stylesheet type=text/css href=./css/css/bootstrap.min.css>
+    <link rel=stylesheet type=text/css href=./css/style.css>
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link type="image/png" sizes="32x32" rel="icon" href="./img/icone2.png">
 
     <title>Bear</title>
 </head>
 
 <body>
-
-    <!-- HEADER -->
-
-    <header class="header-port" id="h-port">
-        <h2 class="h-port-dev">Desenvolvedor</h2>
-        <h1 class="h-port-name">Antônio Filho</h1>
-
-        <div class="h-port-div-icons">
+    <header class=header-port id=h-port>
+        <h2 class=h-port-dev>Desenvolvedor</h2>
+        <h1 class=h-port-name>Antônio Filho</h1>
+        <div class=h-port-div-icons>
             <i class="fa-brands fa-css3-alt"></i>
             <i class="fa-brands fa-html5"></i>
             <i class="fa-brands fa-node-js"></i>
             <i class="fa-solid fa-c"></i>
-
         </div>
-
-        <h2 class="h-port-desc">
+        <h2 class=h-port-desc>
             Página desenvolvida com HTML e CSS, usando uma biblioteca para importa icones.
         </h2>
-
     </header>
-
-    <!-- MAIN -->
-
-    <main class="main-port" id="m-port">
-
-        <!-- SECTION SOBRE MIM -->
-        <section class="section-description">
-
-            <!-- DIV DA DESCRIÇÃO -->
-            <div class="m-port-div-desc">
-                <h1 class="m-port-desc">Sobre Mim</h1> <!-- TITULO -->
-                <!-- TEXTO -->
-                <p class="p-desc">Me chamo Antonio, tenho 20 anos é a 10 meses começei faculdade
+    <main class=main-port id=m-port>
+        <section class=section-description>
+            <div class=m-port-div-desc>
+                <h1 class=m-port-desc>Sobre Mim</h1>
+                <p class=p-desc>Me chamo Antonio, tenho 20 anos é a 10 meses começei faculdade
                     de Analise e desenvolvimento de Sistemas, desde então tenho estudado por fora, praticado
                     para fica melhor a cada dia. Pretendo me torna fullstack é algumas linguagens, como
                     javascript/nodejs que
@@ -61,13 +45,11 @@
                     passadas dentro da faculdade. Estudo javascript fullstack na plataforma Udemy e pratico logica no
                     CodeWars.
                 </p>
-
-                <!-- DIV DAS SKILLS -->
-                <div class="div-skills">
-
-                    <table class=" table table-hover table-light">
+                <div class=div-skills>
+                    <table class="table table-hover table-light">
                         <tr>
-                            <th>HTML <> </th>
+                            <th>HTML <>
+                            </th>
                             <td>Semantica - Forms - Tables - Media - Eventos</td>
                         </tr>
                         <tr>
@@ -81,80 +63,88 @@
                         </tr>
                         <tr>
                             <th>Equipamentos</th>
-                            <td>Github - Git (Em andamento) - VisualStudio Code - CLion - Bootstrap - React (Em andamento)</td>
+                            <td>Github - Git (Em andamento) - VisualStudio Code - CLion - Bootstrap - React (Em
+                                andamento)</td>
                         </tr>
                     </table>
-
                 </div>
             </div>
-
-            <!-- DIV DO VIDEO-->
-            <div class="m-port-div-video">
-                <video width="100%" autoplay loop controls autopictureinpicture>
+            <div class=m-port-div-video>
+                <video width=100% autoplay loop controls autopictureinpicture>
                     <source src="./img/exercicio arrays js.mp4">
                 </video>
             </div>
-
         </section>
-
-        <!-- SECTION DO CODIGO -->
-        <section class="section-codigos">
-            <div class="m-port-div-btn"><button class="btn-main"></button></div>
-
+        <section class=section-codigos>
+            <div class=m-port-div-btn><button class=btn-main></button></div>
             <h1>Codigos</h1>
-
-            <div class="m-div-cod">
+            <div class=m-div-cod>
                 <div>
                     <h1>Concluidos</h1>
-                    <div class="div-item-c">
-                        <div class="item-port-c"><a href="https://form-static-web.netlify.app/" target="_blank">Formulario HTML</a></div>
-                        <div class="item-port-c"><a href="https://login-staticweb.netlify.app/" target="_blank">Tela de Login</a></div>
-                        <div class="item-port-c"><a href="https://cronometro-static-web.netlify.app/" target="_blank">Cronometro</a></div>
-                        <div class="item-port-c"><a href="https://cardstatus.netlify.app/" target="_blank">Card Status</a></div>
-                        <div class="item-port-c">
-                            <a href="./c/av.cpp" target="_blank">Avaliação em C</a>
-                            <a href="https://drive.google.com/file/d/1INAM_vsP0qNnyIgZbsJS0qyFsZ1Rerbg/view?usp=sharing" target="_blank">> Dowload</a>
+                    <div class=div-item-c>
+                        <div class=item-port-c><a href=https://form-static-web.netlify.app/ target=_blank>Formulario
+                                HTML</a></div>
+                        <div class=item-port-c><a href=https://login-staticweb.netlify.app/ target=_blank>Tela de
+                                Login</a></div>
+                        <div class=item-port-c><a href=https://cronometro-static-web.netlify.app/
+                                target=_blank>Cronometro</a></div>
+                        <div class=item-port-c><a href=https://cardstatus.netlify.app/ target=_blank>Card Status</a>
                         </div>
-
+                        <div class=item-port-c>
+                            <a href=./c/av.cpp target=_blank>Avaliação em C</a>
+                            <a href="https://drive.google.com/file/d/1INAM_vsP0qNnyIgZbsJS0qyFsZ1Rerbg/view?usp=sharing"
+                                target=_blank>> Dowload</a>
+                        </div>
                     </div>
                 </div>
                 <div>
                     <h1>Em desenvolvimento</h1>
-                    <div class="div-item-a">
-                        <div class="item-port-a"><p>E-commerce (Proprio)</p></div>
-                        <div class="item-port-a"><p>Tela de FAQ (Frontend Mentor)</p></div>
-                        <div class="item-port-a"><p>Animação 3D em CSS (Projeto do instagram)</p></div>
-                        <div class="item-port-a"><p>Jogo de corrida 2D (Proprio, estudo de POO)</p></div>
-                        <div class="item-port-a"><p>Pagina de personagens de um jogo usando APIs (Proprio estudo de APIs)</p></div>
-                        <div class="item-port-a"><p></p></div>
+                    <div class=div-item-a>
+                        <div class=item-port-a>
+                            <p>E-commerce (Proprio)</p>
+                        </div>
+                        <div class=item-port-a>
+                            <p>Tela de FAQ (Frontend Mentor)</p>
+                        </div>
+                        <div class=item-port-a>
+                            <p>Animação 3D em CSS (Projeto do instagram)</p>
+                        </div>
+                        <div class=item-port-a>
+                            <p>Jogo de corrida 2D (Proprio, estudo de POO)</p>
+                        </div>
+                        <div class=item-port-a>
+                            <p>Pagina de personagens de um jogo usando APIs (Proprio estudo de APIs)</p>
+                        </div>
+                        <div class=item-port-a>
+                            <p></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
-    <footer class="footer-port" id="f-port">
-        <div class="f-port-social">
+    <footer class=footer-port id=f-port>
+        <div class=f-port-social>
             <h1>Rede Sociais</h1>
-            <div class="div-icons">
-                <a href="" target="_blank"><i class="fa-brands fa-whatsapp" ></i></a>
-                <a href="https://www.linkedin.com/in/antonio-filho-654175221/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/AntonioFilhoRoyal" target="_blank"><i class="fa-brands fa-github"></i></a>
-                
+            <div class=div-icons>
+                <a href=https://wa.me/qr/IDSHN46HBNL7C1 target=_blank><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=https://www.linkedin.com/in/antonio-filho-654175221/ target=_blank><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href=https://github.com/AntonioFilhoRoyal target=_blank><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
-        <div class="f-port-more">
+        <div class=f-port-more>
             <H1>Mais sobre mim</H1>
             <ul>
                 <li>Nome: Antonio Filho Germano de Castor</li>
                 <li>Idade: 20 anos</li>
                 <li>Ensino Superior: Tecnologo em Analise e Desenvolvimento de Sistemas -
-                    Faculdade Educacional da LAPA (FAEL)</li>    
-                <li>Soft-Skills: Calmo, Proativo, Trabalho em Equipe, Flexivel.</li>    
+                    Faculdade Educacional da LAPA (FAEL)</li>
+                <li>Soft-Skills: Calmo, Proativo, Trabalho em Equipe, Flexivel.</li>
             </ul>
         </div>
     </footer>
-
-    <script src="https://kit.fontawesome.com/57d9d4112c.js" crossorigin="anonymous"></script>
+    <script src=https://kit.fontawesome.com/57d9d4112c.js crossorigin=anonymous></script>
 </body>
+
 </html>

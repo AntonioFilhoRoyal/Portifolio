@@ -11,7 +11,7 @@
 }
 
 body{
-
+    height: auto;
     background: url(/img/v1016-b-08.jpg);
 
     font-size: 16px;
@@ -73,9 +73,6 @@ header .fa-c{
     color: #007efb;
 }
 
-
-
-
 main{
     width: 100%;
     height: 200vh;
@@ -120,12 +117,6 @@ main .m-port-div-desc .div-skills{
 main .div-skills{
     margin: 10px auto;
     width: 90%;
-}
-
-main table{
-
-    color: white;
-    border: 1px solid white;
 }
 
 main .m-port-div-video{
@@ -219,4 +210,80 @@ footer .f-port-social i{
     100%{
         box-shadow: 1px 1px 100px 1px #a9a9a930;
     }
+}
+
+
+/* Responsivo */
+
+@media (min-width: 1400px) and (max-width: 1500px){
+    
+    header .h-port-name{
+        font-size: 7em;
+
+    }
+    
+    header .h-port-dev, .h-port-desc{
+        font-size: 2.5em;
+    }
+    header .h-port-desc{
+        font-size: 1.8em;
+    }
+
+    header i{
+        font-size: 5em;
+    }
+
+    main .m-port-div-desc .m-port-desc{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 3em;
+    }
+    
+    main .m-port-div-desc .p-desc{
+        font-size: 1.3em;
+    
+    }
+    
+    main .m-port-div-desc .div-skills{
+        font-size: 1.3em;
+    }
+    
+    footer .f-port-social i{
+        margin-left: 4%;
+        font-size: 3em;
+    }
+        
+}
+
+
+@media (max-width: 1000px){
+    
+    main{
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+    }
+        
+    main .section-description{
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    main .m-port-div-desc{
+        width: 100%;
+        text-align: center;
+    }
+
+    main .m-port-div-video{
+        width: 100%;
+    }
+
+    
+
 }
