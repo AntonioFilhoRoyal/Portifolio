@@ -10,6 +10,27 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar-track{
+    background-color: #2e2e2e;
+
+}
+
+::-webkit-scrollbar{
+    width: 0.3rem;
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(157, 0, 0);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 2px red;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(211, 0, 0);
+    
+}
+
 body{
     height: auto;
     background: url(/img/v1016-b-08.jpg);
@@ -20,6 +41,7 @@ body{
     color: white;
 
     scroll-behavior: smooth;
+    
 }
 
 header{
@@ -286,4 +308,44 @@ footer .f-port-social i{
 
     
 
+}
+
+@media (max-width: 800px){
+    header .h-port-name{
+        font-size: 4.5em;
+    }
+
+    main .m-div-cod{
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        width: 100%;
+        min-height: 70vh;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer div{
+        width: 100%;
+        
+    }
+
+    footer .f-port-social i{
+        margin-bottom: 4%;
+    }
+}
+
+@media (max-width: 480px){
+    header .h-port-name{
+        font-size: 3.7em;
+    }
+
+       
 }
