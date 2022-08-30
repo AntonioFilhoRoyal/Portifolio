@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+/* CSS GLOBAL */
+
+.h1{ font-size: 3rem; color: #ffff;}
+.h2{ font-size: 2.5rem; color: #ffff;}
+.h3{ font-size: 2rem; color: #ffff;}
+.h4{ font-size: 1.5rem; color: #ffff;}
+.p{ font-size: 1.5rem; color: #ffff;}
+
+.header-content{
+    margin-bottom: 5px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main-content{
+    width: 100%;
+    min-height: auto;
+
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer-content{
+    width: 100%; 
+    min-height: auto; 
+    background-color: red;
+}
+
+.footer-bg{}
+
+/* CSS LOCAL*/
+
+body{
+    font-size: 16px;
+    font-family: Poppins, 'Source Sans Pro';
+
+    background-image: url(../img/background-header-prot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /* HEADER */
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .title-dev{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+    background: linear-gradient(to bottom, #005d2a, #a2f8c9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+header .div-icons-dev{
+    margin-bottom: 40px;
+}
+
+header i{
+    margin: 5px;
+    font-size: 3.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+header .fa-html5 {color: rgb(255, 196, 0)}
+header .fa-css3-alt {color: rgb(0, 129, 214);}
+header .fa-js {color: rgb(238, 255, 0);}
+header .fa-node {color: rgb(31, 189, 0);}
+header .fa-c {color: rgb(0, 68, 253);}
+header .fa-git-alt {color: rgb(230, 104, 0);}
+header .fa-github {color: rgb(32, 28, 39)}
+
+header i:hover{
+    color: #fff;
+    transform: rotateX(360deg);
+}
+
+       /* MAIN */
+
+main .section-main{
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    width: 100%;
+    min-height: 40vh;
+
+    text-align: center;
+}
+
+main .section-main .title-dev{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+main .section-skill{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-skill .title-skill{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+main .section-skill .table-skill{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .section-skill .table-skill div{
+    margin: 10px;
+    width: 100%;
+    background-color: rgb(0, 0, 90);
+
+    border: 1px solid lightblue;
+    border-radius: 30px;
+
+}
+
+main .section-skill .table-skill .h3{
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+main .section-skill .table-skill .list-skill{
+    list-style: none;
+    text-align: center;
+
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+
+}
+
+main .section-skill .table-skill .item-skill{
+    margin-bottom: 3px;
+
+}
+
+
+main .section-code{
+    margin: 0 auto;
+    padding: 0px 50px;
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .section-code .code-temp{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main .section-code .code-temp a{
+   text-decoration: none;
+   color: white;
+   font-size: 1.3rem;
+   transition: 0.5s ease-in-out;
+}
+
+main .section-code .code-temp a:hover{
+    background-color: rgba(0, 185, 185, 0.399);
+
+}
+
+footer .footer-faq{
+    text-align: center;
+}
+
+@media (max-width: 900px){
+    main .section-skill .table-skill{
+        margin: 0 auto;
+        width: 98%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main .section-code .code-temp div{
+        margin-left: 20px;
+    
+    }
+}
+
+@media (max-width: 600px){
+    main .section-code .code-temp {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    main .section-code .code-temp .code-execution{
+        margin-top: 30px;
+    
+    }
+}
+
+@media (max-width: 370px){
+    header .title-dev{
+        font-size: 4rem;
+    }
+}
