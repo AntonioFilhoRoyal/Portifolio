@@ -206,20 +206,20 @@ footer{
     flex-direction: column;
 }
 
-footer .footer-faq{
-    text-align: center;
-}
-
-footer .footer-faq li{
+footer .footer-info .list-item{
     list-style: none;
     text-decoration: none;
+    color: #e5fdf0;
 }
 
-footer .footer-faq li a{
+footer .footer-info .list-item .a-item{
     text-decoration: none;
     color:#e5fdf0;
 }
 
+footer .footer-faq{
+    text-align: center;
+}
 
 @media (max-width: 900px){
     main .section-skill .table-skill{
