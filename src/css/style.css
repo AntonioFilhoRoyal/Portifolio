@@ -206,13 +206,13 @@ footer{
     flex-direction: column;
 }
 
-footer .footer-info .list-item{
+footer .footer-info .ul-list-footer .list-item{
     list-style: none;
     text-decoration: none;
     color: #e5fdf0;
 }
 
-footer .footer-info .list-item .a-item{
+footer .footer-info .ul-list-footer .list-item .a-item{
     text-decoration: none;
     color:#e5fdf0;
 }
