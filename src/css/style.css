@@ -199,9 +199,27 @@ main .section-code .code-temp a:hover{
 
 }
 
+footer{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
 footer .footer-faq{
     text-align: center;
 }
+
+footer .footer-faq li{
+    list-style: none;
+    text-decoration: none;
+}
+
+footer .footer-faq li a{
+    text-decoration: none;
+    color:#e5fdf0;
+}
+
 
 @media (max-width: 900px){
     main .section-skill .table-skill{
