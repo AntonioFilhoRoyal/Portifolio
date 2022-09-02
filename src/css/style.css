@@ -36,7 +36,7 @@
 .footer-content{
     width: 100%; 
     min-height: auto; 
-    background-color: red;
+    background-color: rgb(255, 186, 186);
 }
 
 .footer-bg{}
